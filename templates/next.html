@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="../static/style.css">
+<link rel="stylesheet" href="../static/1.css">
+<title>Listen to music</title>
+    </head>
+    <body>
+        <div id="heading"><p>Plugin your headphones</p></div>
+        <div id = "dummy"><div id="detailsContainerNext">
+            <div id="label">Your current mood is {{label}}:</div>
+            <div>Listen to this</div>
+            
+            {% for name in name %}
+                <div id = "songValues">Name : {{name}}</div>
+            {% endfor %}
+            {% for artist in artist %}
+                <div id = "songValues">Artist : {{artist}}</div>
+            {% endfor %}
+            {% for mood in mood %}
+                <div id = "songValues">Type of Song : {{mood}}</div>
+            {% endfor %}
+            <div id="songValues">Your current mood is {{label}}:</div>
+
+        </div></div>
+        <div id="line"></div>
+        <div id="inputVideo">
+            {% for link in link %}
+                <embed id= "Video"src="https://www.youtube.com/embed/5Eqb_-j3FDA">
+            {% endfor %}
+        </div>
+        
+
+    </body>
+</html>
