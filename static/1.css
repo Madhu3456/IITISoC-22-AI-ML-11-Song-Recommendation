@@ -1,0 +1,60 @@
+html{
+    background-image: url("music.jpg");
+    background-position: center;
+    
+    color: aliceblue;
+    background-size: cover;
+    height:900px;
+}
+#detailsContainerNext {
+    background: rgb(53, 52, 52);
+    width: 500px;
+    height : 200px;
+    box-sizing: border-box;
+    opacity: 0.6;
+    border : 2px dashed white;
+    padding : 5px;
+    font-size : 18px;
+  }
+#dummy {
+background: rgb(53, 52, 52);
+width: 510px;
+height : 210px;
+box-sizing: border-box;
+opacity: 0.6;
+position : absolute;
+top : 50%;
+left : 20%;
+transform : translate(-50%, -50%);
+padding : 5px;
+}
+#line {
+position : absolute;
+top : 50%;
+left : 50%;
+transform : translate(-50%, -50%);
+height : 500px;
+border : 1px solid white;
+}
+#inputVideo {
+background: rgb(53, 52, 52);
+width: 510px;
+height : 210px;
+box-sizing: border-box;
+opacity: 0.6;
+padding : 5px;
+position : absolute;
+top : 50%;
+left : 80%;
+transform : translate(-50%, -50%);
+font-size : 18px;
+}
+#heading > p{
+padding-top: 10px;
+margin-top: 0%;
+}
+#Video{
+    width: 500px;
+    height : 200px;
+
+}
