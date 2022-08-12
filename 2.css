@@ -1,0 +1,28 @@
+#Playbutton{
+    position : absolute;
+    top : 90%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+}
+#Scanner{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+
+}
+
+#Div{
+    background: rgb(53, 52, 52);
+    width: 510px;
+    height : 210px;
+    box-sizing: border-box;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    padding : 5px;
+}
+#heading > p{
+    padding-left: 45%;
+}
