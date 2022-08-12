@@ -1,0 +1,147 @@
+html, body{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+.bg-img{
+  background-image: url("music.jpg");
+  background-position: center;
+  
+  color: aliceblue;
+  background-size: cover;
+  height:900px;
+}
+#heading{
+  font-size:30px ;
+  background: rgb(53, 52, 52);
+  height: 70px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  display : flex;
+}
+#detailsContainer {
+  background: rgb(53, 52, 52);
+  width: 500px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  display : flex;
+}
+#heading > img {
+  height : 50px;
+  padding-top: 3px;
+  padding-left : 2px;
+}
+#heading > p {
+  padding-top: 5px;
+  padding-left : 600px;
+}
+#caption{
+  font-size:40px;
+  padding-left:25px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: rgb(44, 41, 41);
+}
+.box{
+  
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 200px;
+  height: 400px;
+  text-align: center;
+}
+
+.form-control{
+ /* background: linear-gradient(  rgb(74, 53, 213), white,rgb(74, 53, 213));*/
+  background-color :rgb(26, 115, 233); 
+  color:white;
+  padding : 5px;
+  height: 30px;
+  border: none;
+  box-shadow: black;
+  margin-right: 20px;
+}
+.d-grid{
+  background-color :rgb(26, 115, 233);
+  border-radius: 5px;
+  width: 350px;
+  border: 1px solid black;
+  text-align: center;
+  position : absolute;
+    top : 70%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+  }
+#scanner{
+  margin-top: 20px;
+  background: linear-gradient(  rgb(74, 53, 213), white,rgb(74, 53, 213));
+  /* background-color:rgb(58, 113, 143); */
+  color:black;
+  width: 110px;
+  height: 40px;
+  border: 1px solid black;
+  box-shadow: black;
+  border-radius: 8px;
+
+}
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  margin-left : 10px;
+}
+#upload{
+  margin-left: 20px;
+  background: linear-gradient(  rgb(74, 53, 213), white,rgb(74, 53, 213));
+  /* background-color:rgb(58, 113, 143); */
+  color:black;
+  width: 110px;
+  height: 40px;
+  border: 1px solid black;
+  box-shadow: black;
+  border-radius: 8px;
+}
+#button:hover {
+  border-radius : 50%;
+  background-color : white;
+  color : white;
+}
+#caption {
+  color : grey;
+}
+#fileData{
+  border:2px solid black;
+  width: 350px;
+  padding: 5px;
+  height: 50px;
+  position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+  padding-top: 9px;
+  background: rgb(53, 52, 52);
+  border-radius: 5px;
+}
+#button{
+  border:1px solid black;
+  border-radius: 5px;
+  position : absolute;
+    top : 60%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+
+}
+#headingtitle{
+  margin-left: 20px;
+}
+
+
+       
+
+
+
+
+
